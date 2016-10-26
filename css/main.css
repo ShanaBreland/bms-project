@@ -50,8 +50,39 @@ h1{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     text-align: center;
+}
+.standard-button{
+    &:hover { line-height:1em;
+
+    }
+
+    &::before {
+      content: attr(data-text);
+      color: purple;
+    }
 
 }
+.grow{
+    display: inline-block;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    transition-property: transform;
+    -webkit-transition-property: transform;
+    transform: translateY(10);
+    -webkit-transform: translateY(10);
+    transition: 0.4s all;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+}
+
+.grow:hover, .grow:focus, .grow:active {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    transform: scale(1.15.);
+    -webkit-transform: scale(1.15);
+
+}
+
 
 
 

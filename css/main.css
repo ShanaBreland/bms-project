@@ -41,7 +41,7 @@ h1{
   width: auto;
   height:300px;
   background-color: white;
-  padding: 10% 10% 4% 10%;
+  padding: 10% 10% 2% 10%;
   align-self: center;
   overflow: visible;
 }
@@ -83,34 +83,36 @@ h1{
     -webkit-transform: scale(1.15);
 }
 
-a :link{
-  text-decoration: underline;
-  color: currentColor;
 
 }
 
 /*Footer Section */
-footer{
-  background-color: #2c6230;
+footer {
   width: 100%;
   height: auto;
+  border-top-style: ;
+  border-top-width: 45px;
+
+  overflow: visible;
+  padding-top: 5%;
+  clear: both;
+}
+.footer-green{
   border-top-style: solid;
   border-top-width: 10px;
-  border-top-color: #2c6230;
-  overflow: visible;
+  border-top-color:#2c6230;
 }
-
 footer .bottom{
-  background-color: white;
+  background-color:white;
   border-top-style: solid;
   border-top-width: 5px;
-  border-top-color: #b8992d;
-  padding: 20px 5px 0px 5px;
+  border-top-color:#b8992d;
+  padding: 2px 5px 20px 5px;
   overflow: visible;
 }
 
 footer .address{
-  padding-top: 0;
+  padding: 0px;
   margin: 5px;
   display: inline-block;
 }
